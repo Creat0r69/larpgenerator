@@ -14107,7 +14107,7 @@
             de = document.querySelectorAll(".choices__item"), pe = document.querySelectorAll(".btn_download"),
             ge = document.querySelector(".btn_random"), ye = 1024, me = 1024,
             ve = ["/assets/parts/background/rare/2.png", "/assets/parts/background/rare/5.png", "/assets/parts/background/rare/6.png", "/assets/parts/background/rare/Bg 5.png", "/assets/parts/background/rare/Bg 4.png", "/assets/parts/background/rare/Bg 1.png", "/assets/parts/background/rare/Bg 2.png", "/assets/parts/background/rare/Bg 3.png"],
-            we = ["#", "/assets/parts/clothes/common/Bip.png", "/assets/parts/clothes/common/Cape.png", "/assets/parts/clothes/common/Icy sweater.png", "/assets/parts/clothes/common/Ponco.png", "/assets/parts/clothes/common/Shirt.png"],
+            we = ["#", ,"/assets/parts/clothes/common/1.png", "/assets/parts/clothes/common/2.png", "/assets/parts/clothes/common/3.png", "/assets/parts/clothes/common/4.png", "/assets/parts/clothes/common/5.png","/assets/parts/clothes/common/6.png", "/assets/parts/clothes/common/7.png", "/assets/parts/clothes/common/8.png", "/assets/parts/clothes/common/9.png", "/assets/parts/clothes/common/10.png"],
             be = ["/assets/parts/body/common/Original.png"],
             xe = ["/assets/parts/eyes/common/Original.png", "/assets/parts/eyes/common/Big eyes.png", "/assets/parts/eyes/common/Sus.png", "/assets/parts/eyes/common/Weird.png", "/assets/parts/eyes/common/Xx.png", "/assets/parts/eyes/rare/Pixel.png", "/assets/parts/eyes/rare/1.png", "/assets/parts/eyes/rare/2.png", "/assets/parts/eyes/rare/3.png", "/assets/parts/eyes/rare/4.png", "/assets/parts/eyes/rare/5.png", "/assets/parts/eyes/rare/6.png"],
             ke = ["#", "/assets/parts/head/common/Cap.png", "/assets/parts/head/common/Headband.png", "/assets/parts/head/common/Mafia.png", "/assets/parts/head/rare/Afro.png", "/assets/parts/head/rare/Arrow.png", "/assets/parts/head/rare/Egg.png", "/assets/parts/head/rare/Goggles.png", "/assets/parts/head/rare/Russian hat.png"],
@@ -14126,7 +14126,7 @@
                 let e = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : ye,
                     n = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : me;
                 t.clearRect(0, 0, e, n)
-            }(t), await Ie(t, e.background), await Ie(t, e.clothes), await Ie(t, e.body), await Ie(t, e.eyes), await Ie(t, e.head), await Ie(t, e.mouth), t.canvas.parentElement.classList.remove("_loading"), !0
+            }(t), await Ie(t, e.background), await Ie(t, e.body), await Ie(t, e.clothes), await Ie(t, e.eyes), await Ie(t, e.head), await Ie(t, e.mouth), t.canvas.parentElement.classList.remove("_loading"), !0
         }
 
         function Ie(t, e) {
